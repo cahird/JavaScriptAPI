@@ -1,0 +1,557 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Verify Clearpoint API test",
+    "line": 3,
+    "id": "verify-clearpoint-api-test",
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 2
+      }
+    ],
+    "uri": "features/test/test01.feature",
+    "elements": [
+      {
+        "id": "verify-clearpoint-api-test;add--item-to-the-list",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Add  item to the list",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "open the local host url",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "submit \"test0001\" create item request",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "verify the items are created",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "verify-clearpoint-api-test;add--item-to-the-list",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Add  item to the list",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "open the local host url",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "submit \"test0002\" create item request",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "verify the items are created",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "verify-clearpoint-api-test;add--item-to-the-list",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Add  item to the list",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "open the local host url",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "submit \"test0003\" create item request",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "verify the items are created",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "verify-clearpoint-api-test;add--item-to-the-list",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Add  item to the list",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "open the local host url",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "submit \"test0004\" create item request",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "verify the items are created",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "verify-clearpoint-api-test;mark-an-item-as-completed",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Mark an item as completed",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "open the local host url",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "submit \"test1001\" create item request",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "verify the items are created",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "send complete request \"test1001\"",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "verify the request is removed from show items \"test1001\"",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:81"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 6000000,
+              "error_message": "AssertionError: ERROR is detected in response: expected '{\"id\":\"8adb64a9-21f7-4068-ba36-98656a…' to not include 'test1001'\n    at World.<anonymous> (/Users/tharidas/Clearpoint_API/features/step_definitions/test01StepDefs.js:91:79)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "verify-clearpoint-api-test;mark-an-item-as-completed",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Mark an item as completed",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "open the local host url",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "submit \"test1002\" create item request",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "verify the items are created",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "send complete request \"test1002\"",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "verify the request is removed from show items \"test1002\"",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:81"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 6000000,
+              "error_message": "AssertionError: ERROR is detected in response: expected '{\"id\":\"0cc360f7-5d38-4d39-9cdc-bcef2b…' to not include 'test1002'\n    at World.<anonymous> (/Users/tharidas/Clearpoint_API/features/step_definitions/test01StepDefs.js:91:79)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "verify-clearpoint-api-test;mark-an-item-as-completed",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Mark an item as completed",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "open the local host url",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "submit \"test1003\" create item request",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "verify the items are created",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "send complete request \"test1003\"",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "verify the request is removed from show items \"test1003\"",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:81"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 7000000,
+              "error_message": "AssertionError: ERROR is detected in response: expected '{\"id\":\"c70fdd8b-1063-4b4e-88f9-2e597a…' to not include 'test1003'\n    at World.<anonymous> (/Users/tharidas/Clearpoint_API/features/step_definitions/test01StepDefs.js:91:79)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "verify-clearpoint-api-test;mark-an-item-as-completed",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Mark an item as completed",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "open the local host url",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "submit \"test1004\" create item request",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "verify the items are created",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "send complete request \"test1004\"",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "verify the request is removed from show items \"test1004\"",
+            "match": {
+              "location": "features/step_definitions/test01StepDefs.js:81"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 4000000,
+              "error_message": "AssertionError: ERROR is detected in response: expected '{\"id\":\"32c29213-6afb-4754-9b82-a205e0…' to not include 'test1004'\n    at World.<anonymous> (/Users/tharidas/Clearpoint_API/features/step_definitions/test01StepDefs.js:91:79)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

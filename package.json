@@ -1,0 +1,25 @@
+{
+  "name": "clearpoint_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/cucumber/bin/cucumber-js --tags='@smoke' -f json:report/cucumber_report.json -f summary",
+    "report:html": "node ./report.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.5.0",
+    "node-fetch": "^3.2.10",
+    "properties-reader": "^2.2.0",
+    "supertest": "^6.2.4"
+  },
+  "dependencies": {
+    "node": "16.00",
+    "node.js": "^0.0.1-security"
+  }
+}
